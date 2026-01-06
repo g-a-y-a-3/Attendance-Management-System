@@ -37,7 +37,7 @@ public class AddFaculty extends JFrame implements ActionListener{
 			public void actionPerformed(ActionEvent e) {
 				if(e.getSource()==l12) {
 					try {
-						File f1=new File("/home/sarathmohan/Documents/Attendance Management System/FacultyList.txt");
+						File f1=new File("/home/Documents/Attendance Management System/FacultyList.txt");
 						FileWriter fw=new FileWriter(f1,true);
 						String facname=l2.getText();
 						String facid=l4.getText();
