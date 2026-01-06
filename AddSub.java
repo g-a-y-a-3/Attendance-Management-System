@@ -41,7 +41,7 @@ public class AddSub extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				if(e.getSource()==l16) {
 					try {
-						File f1=new File("/home/sarathmohan/Documents/Attendance Management System/SubjectList.txt");
+						File f1=new File("/home/Documents/Attendance Management System/SubjectList.txt");
 						FileWriter fw=new FileWriter(f1,true);
 						String subdept=(String)l2.getSelectedItem();
 						String sub1=l4.getText();
