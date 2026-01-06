@@ -43,7 +43,7 @@ public class AddStud extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				if(e.getSource()==l16) {
 					try {
-						File f1=new File("/home/sarathmohan/Documents/Attendance Management System/StudentList.txt");
+						File f1=new File("/home/Documents/Attendance Management System/StudentList.txt");
 						FileWriter fw=new FileWriter(f1,true);
 						String stuname=l2.getText();
 						String sturno=l4.getText();
